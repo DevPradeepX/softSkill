@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pradeep Gupta - Full Stack Developer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.15;
+            color: #333;
+            background: white;
+            font-size: 8pt;
+            padding: 6mm;
+            width: 210mm;
+            height: 297mm;
+            margin: 0 auto;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 8px;
+            border-bottom: 2px solid #2c3e50;
+            padding-bottom: 4px;
+        }
+        
+        .name {
+            font-size: 24pt;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 4px;
+        }
+        
+        .contact-info {
+            font-size: 8pt;
+            color: #555;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+        
+        .contact-info a {
+            color: #2c3e50;
+            text-decoration: none;
+        }
+        
+        .section {
+            margin-bottom: 6px;
+        }
+        
+        .section-title {
+            font-size: 11pt;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 4px;
+            text-transform: uppercase;
+            border-bottom: 1px solid #bdc3c7;
+            padding-bottom: 1px;
+        }
+        
+        .objective {
+            text-align: justify;
+            margin-bottom: 6px;
+            font-size: 8pt;
+            line-height: 1.25;
+        }
+        
+        .two-column {
+            display: flex;
+            gap: 12px;
+        }
+        
+        .left-column {
+            flex: 1;
+        }
+        
+        .right-column {
+            flex: 1;
+        }
+        
+        .education-item, .experience-item, .project-item {
+            margin-bottom: 5px;
+        }
+        
+        .education-item h4, .experience-item h4, .project-item h4 {
+            font-size: 9.5pt;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 1px;
+        }
+        
+        .education-item p, .experience-item p, .project-item p {
+            font-size: 8pt;
+            margin-bottom: 1px;
+            color: #555;
+            line-height: 1.2;
+        }
+        
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 4px;
+            font-size: 8pt;
+        }
+        
+        .skill-category {
+            margin-bottom: 3px;
+        }
+        
+        .skill-category strong {
+            color: #2c3e50;
+            font-size: 8.5pt;
+        }
+        
+        .achievements-list {
+            font-size: 8pt;
+            color: #555;
+        }
+        
+        .achievements-list li {
+            margin-bottom: 1px;
+            list-style-type: none;
+            position: relative;
+            padding-left: 8px;
+            line-height: 1.3;
+        }
+        
+        .achievements-list li:before {
+            content: "▶";
+            position: absolute;
+            left: 0;
+            color: #3498db;
+            font-size: 7pt;
+        }
+        
+        .certifications {
+            font-size: 8pt;
+        }
+        
+        .certifications li {
+            margin-bottom: 1px;
+            list-style-type: none;
+            position: relative;
+            padding-left: 8px;
+            line-height: 1.25;
+        }
+        
+        .certifications li:before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: #3498db;
+        }
+        
+        .tech-highlight {
+            background-color: #f8f9fa;
+            padding: 2px 4px;
+            border-radius: 3px;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+
+        .company-customizable {
+            background-color: #fff3cd;
+            border: 1px dashed #d1ecf1;
+            padding: 3px 5px;
+            border-radius: 3px;
+            font-style: italic;
+            color: #721c24;
+        }
+        
+        @media print {
+            body {
+                padding: 5mm;
+                font-size: 8.5pt;
+                line-height: 1.15;
+            }
+            @page {
+                margin: 4mm;
+                size: A4;
+            }
+            .section {
+                margin-bottom: 6px;
+            }
+            .education-item, .experience-item, .project-item {
+                margin-bottom: 4px;
+            }
+            .header {
+                margin-bottom: 8px;
+            }
+            .company-customizable {
+                background-color: transparent;
+                border: none;
+                color: #333;
+                font-style: normal;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="name">PRADEEP GUPTA</div>
+        <div class="contact-info">
+            <span>📞 7470929715</span>
+            <span>✉ <a href="mailto:piyush58d@gmail.com">pradeepgupta6835@gmail.com</a></span>
+            <span>🔗 <a href="https://linkedin.com/in/pradeepgupta6835" target="_blank">linkedin.com/in/pradeepgupta6835</a></span>
+            <span>📍 Ahemdabad, Gujrat, India</span>
+        </div>
+    </div>
+    
+    <div class="section">
+        <div class="section-title">Professional Objective</div>
+        <div class="objective">
+            Full Stack Developer with expertise in building scalable web applications using modern technologies. Proficient in <span class="tech-highlight">React.js, Node.js, TypeScript, Express.js, and Java</span> with hands-on experience in developing end-to-end solutions. Specialized in creating real-time applications with Socket.io, implementing secure authentication systems, and designing RESTful APIs. Passionate about delivering clean, maintainable code and creating seamless user experiences across the full development stack.
+        </div>
+    </div>
+    
+    <div class="two-column">
+        <div class="left-column">
+            <div class="section">
+                <div class="section-title">Education</div>
+                <div class="education-item">
+                    <h4>Indira Gandhi National Tribal University Amarkantak</h4>
+                    <p><strong>Bachelor's in Computer Application</strong></p>
+                    <p>Graduation: 2025</p>
+                    <p>Relevant Coursework: Data Structures & Algorithms, Object-Oriented Programming, Database Management Systems, Software Engineering, Web Technologies</p>
+                </div>
+                <div class="education-item">
+                    <h4>Ramakrishna Vivekananda Vidyapeeth, Bijuri</h4>
+                    <p>Class 12 (CBSE) | Class 10 (CBSE)</p>
+                </div>
+            </div>
+            
+            <div class="section">
+                <div class="section-title">Key Projects</div>
+                <div class="project-item">
+                    <h4>AI-Powered ATS Resume Analyzer & Optimization Platform</h4>
+                    <p><strong>Technologies:</strong> <span class="tech-highlight">React.js, TypeScript, Node.js, Express.js, MongoDB, Google Gemini AI, Groq AI, Cloudinary, jsPDF</span></p>
+                    <p>• Developed full-stack AI resume analysis platform with intelligent multi-provider failover (Gemini, Groq, NVIDIA APIs)</p>
+                    <p>• Implemented AI-powered resume enhancement system with single comprehensive API call reducing processing time by 70-85%</p>
+                    <p>• Built context-aware job matching engine using semantic analysis and synonym detection for improved relevance</p>
+                    <p>• Designed detailed ATS scoring system (7 components) with AI-generated specific improvement suggestions and examples</p>
+                    <p>• Integrated Cloudinary for resume storage, pdf-parse/mammoth for document parsing, and A4 PDF generation with professional templates</p>
+                </div>
+                <div class="project-item">
+                    <h4>Mentor Connect - Full Stack Mentorship Platform</h4>
+                    <p><strong>Technologies:</strong> <span class="tech-highlight">React.js, TypeScript, Node.js, Express.js, Socket.io, Prisma ORM, SQLite, JWT, Tailwind CSS</span></p>
+                    <p>• Architected and developed full-stack mentorship platform with role-based authentication for mentors, mentees, and admins</p>
+                    <p>• Built RESTful API backend with Express.js and TypeScript featuring appointment management, user profiles, and rating systems</p>
+                    <p>• Implemented real-time bidirectional messaging using Socket.io with message persistence and unread indicators</p>
+                    <p>• Designed PostgreSQL database schema with Prisma ORM for efficient data modeling and migrations</p>
+                    <p>• Integrated comprehensive security measures including JWT authentication, bcrypt hashing, input sanitization, and rate limiting</p>
+                    <p>• Created responsive React frontend with context API for state management and custom hooks for reusable logic</p>
+                </div>
+                <div class="project-item">
+                    <h4>Music Streaming Platform for Independent Artists</h4>
+                    <p><strong>Technologies:</strong> <span class="tech-highlight">React.js, Supabase, JavaScript, CSS3, RESTful APIs</span></p>
+                    <p>• Developed responsive music streaming platform with dynamic React components and mobile-first design approach</p>
+                    <p>• Implemented RESTful API integration for audio file uploads, metadata management, and real-time music retrieval</p>
+                    <p>• Built reusable UI components including custom audio player, genre filtering, and interactive music library</p>
+                </div>
+                <div class="project-item">
+                    <h4>College Marketplace Platform</h4>
+                    <p><strong>Technologies:</strong> <span class="tech-highlight">React.js, Express.js, Node.js, MongoDB</span></p>
+                    <p>• Led frontend development and product design for MERN stack peer-to-peer student marketplace in collaborative team environment</p>
+                    <p>• Managed complete frontend architecture and UI/UX design while coordinating closely with backend team for seamless API integration</p>
+                    <p>• Defined product features and user experience strategy, making key decisions on functionality and interface design</p>
+                    <p>• Built responsive component library with category-based filtering and search functionality for optimized user experience</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="right-column">
+            <div class="section">
+                <div class="section-title">Technical Skills</div>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <strong>Frontend Development:</strong><br>
+                        React.js, TypeScript, JavaScript (ES6+), HTML5, CSS3, Tailwind CSS, Responsive Design, Vite
+                    </div>
+                    <div class="skill-category">
+                        <strong>Backend Development:</strong><br>
+                        Node.js, Express.js, RESTful APIs, Socket.io (Real-time), JWT Authentication, bcrypt
+                    </div>
+                    <div class="skill-category">
+                        <strong>Databases & ORM:</strong><br>
+                        Prisma ORM, SQLite, MySQL, MongoDB, Supabase, Database Design & Migrations
+                    </div>
+                    <div class="skill-category">
+                        <strong>Development Tools:</strong><br>
+                        Git, VS Code, NPM, Postman, Chrome DevTools, Nodemon, Concurrently
+                    </div>
+                    <div class="skill-category">
+                        <strong>Programming Languages:</strong><br>
+                        TypeScript, JavaScript, Java, SQL
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section">
+                <div class="section-title">Technical Achievements</div>
+                <ul class="achievements-list">
+                    <li>₹10,000 Inspire Award Winner for innovative Women Safety Device with hardware-software integration</li>
+                    <li>Developed 4 full-stack web applications with authentication, database design, and API implementation</li>
+                    <li>Built AI-powered resume analyzer with multi-provider failover system using Google Gemini, Groq, and NVIDIA APIs</li>
+                    <li>Implemented real-time messaging system with Socket.io for bidirectional communication and message persistence</li>
+                    <li>Led frontend development and product design in collaborative team environment for e-commerce platform</li>
+                </ul>
+            </div>
+            
+            <div class="section">
+                <div class="section-title">Certifications & Learning</div>
+                <ul class="certifications">
+                    <li>Java Programming Essentials – LetsUpgrade</li>
+                    <li>Foundations of User Experience (UX) Design – Coursera (Google)</li>
+                    <li>Web Development Fundamentals – Bhartintern</li>
+                    <li>Full Stack Development – Self-Study & Project Implementation</li>
+                    <li>Database Design & SQL – Academic & Industry Projects</li>
+                </ul>
+            </div>
+            
+            <div class="section">
+                <div class="section-title">Core Competencies</div>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <strong>Full Stack Development:</strong> End-to-end application development from database design to frontend implementation. Experience with modern tech stacks and RESTful architecture patterns.
+                    </div>
+                    <div class="skill-category">
+                        <strong>Real-time Systems:</strong> Proficient in building real-time features using Socket.io for bidirectional communication, live updates, and instant messaging capabilities.
+                    </div>
+                    <div class="skill-category">
+                        <strong>Security & Authentication:</strong> Implementing secure authentication systems with JWT, bcrypt password hashing, input sanitization, and role-based access control.
+                    </div>
+                    <div class="skill-category">
+                        <strong>Database Management:</strong> Designing relational database schemas, writing complex SQL queries, implementing ORM patterns, and managing database migrations.
+                    </div>
+                    <div class="skill-category">
+                        <strong>Problem Solving:</strong> Strong algorithmic thinking and debugging skills. Experienced in translating business requirements into technical solutions with clean, maintainable code.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="section">
+        <div class="section-title">Professional Experience</div>
+        <div class="two-column">
+            <div class="left-column">
+                <div class="experience-item">
+                    <h4>Web Development Intern | Bhartintern</h4>
+                    <p><em>1 month | Remote | 2023</em></p>
+                    <p>• Developed responsive portfolio website showcasing frontend development skills and project implementations</p>
+                    <p>• Built interactive temperature converter application with real-time calculations using vanilla JavaScript</p>
+                    <p>• Gained hands-on experience with modern web development workflows and debugging techniques</p>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+</body>
+</html>
